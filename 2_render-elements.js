@@ -7,7 +7,7 @@ const root= ReactDOM.createRoot(container);
 
 root.render(
     <div>
-        <h1>Reactjs Tutorial</h1>,
-        <p> I am learning React </p>,
+        <h1>Reactjs Tutorial</h1>
+        <p> I am learning React </p>
     </div> 
 )
