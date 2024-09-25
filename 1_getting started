@@ -1,0 +1,5 @@
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+ReactDOM.render(<h2> I am learning React! </h2>, document.getElementById('root') );
