@@ -1,0 +1,24 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
+const container= document.getElementById("root");
+const root= ReactDOM.createRoot(container);
+
+const name= "Tim Bergling";
+const artist= (
+    <ul>
+            <li> Avicii </li>
+            <li> Martin Garrix</li>
+            <li> Zedd </li>
+    </ul>
+)
+
+root.render(
+    <React.Fragment>
+        <h1> EDM Artist </h1>
+        {artist}
+        <h2> {name} is a great artist </h2>
+        <h4> He was born in {1980+9} </h4>
+    </React.Fragment>
+    
+)
