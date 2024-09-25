@@ -1,0 +1,18 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
+const container= document.getElementById("root");
+const root= ReactDOM.createRoot(container);
+
+root.render(
+    <React.Fragment>
+        <h1>Netflix Series:</h1>
+        <ol>
+            <li> Dark</li>
+            <li> Breaking Bad </li>
+            <li> 13 reasons why</li>
+        </ol>
+    
+    </React.Fragment>
+    
+)
